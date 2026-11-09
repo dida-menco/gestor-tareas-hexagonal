@@ -37,6 +37,27 @@ El código fuente del backend está organizado en tres capas estrictamente desac
 ## 🚀 Cómo Ejecutar el Proyecto Localmente
 
 ### 1. Clonar el repositorio
-```bash
+
 git clone [https://github.com/dida-menco/gestor-tareas-hexagonal.git](https://github.com/dida-menco/gestor-tareas-hexagonal.git)
 cd gestor-tareas-hexagonal
+
+### 2. Ejecutar el Backend (Spring Boot)
+cd backend
+./mvnw spring-boot:run
+
+El servidor backend iniciará en http://localhost:8080.
+
+
+### 3. Ejecutar el Frontend (React)
+Abre otra terminal y ejecuta:
+
+   cd frontend
+   npm install
+   npm run dev
+
+La aplicación frontend se abrirá en http://localhost:5173.
+
+
+👤 Autor
+Desarrollado por Deimer Menco Beltrán
+Estudiante de Ingeniería de Software — Universidad de Cartagena
